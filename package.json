@@ -1,0 +1,11 @@
+{
+  "name": "@koddsson/devtools",
+  "version": "0.0.1",
+  "description": "A collection of devtools I use while writing code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Kristján Oddsson <me@koddsson.com>",
+  "license": "ISC"
+}
