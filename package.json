@@ -1,11 +1,19 @@
 {
-  "name": "@koddsson/devtools",
+  "name": "@koddsson/eslint-config",
   "version": "0.0.1",
-  "description": "A collection of devtools I use while writing code.",
-  "main": "index.js",
+  "description": "My ESLint Config.",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {},
   "keywords": [],
   "author": "Kristján Oddsson <me@koddsson.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint-config-prettier": "^8.6.0"
+  }
 }
