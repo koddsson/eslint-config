@@ -1,6 +1,6 @@
 {
   "name": "@koddsson/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "My ESLint Config.",
   "main": "index.cjs",
   "type": "module",
@@ -12,6 +12,7 @@
     "eslint": ">= 3"
   },
   "dependencies": {
+    "@koddsson/tsconfig": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "eslint-config-prettier": "^8.6.0"
