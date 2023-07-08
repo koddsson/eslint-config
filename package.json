@@ -4,7 +4,9 @@
   "description": "My ESLint Config.",
   "main": "index.cjs",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "echo 'no tests configured'"
+  },
   "keywords": [],
   "author": "Kristján Oddsson <me@koddsson.com>",
   "license": "ISC",
