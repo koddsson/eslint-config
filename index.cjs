@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2022: true,
@@ -15,6 +16,5 @@ module.exports = {
     project: ["./tsconfig.json"],
   },
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "unicorn"],
-  root: true,
+  plugins: ["@typescript-eslint", "prettier", "unicorn"],
 };
