@@ -1,6 +1,6 @@
 {
   "name": "@koddsson/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My ESLint Config.",
   "main": "index.cjs",
   "type": "module",
