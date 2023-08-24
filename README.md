@@ -10,7 +10,7 @@ Add this to your package.json
 
 ```json
   "scripts": {
-    "lint": "eslint src/**/*"
+    "lint": "eslint \"src/**/*.{js,mjs,ts,mts}\""
   },
   "eslintConfig": {
     "extends": [
