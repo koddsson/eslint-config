@@ -2,7 +2,7 @@
   "name": "@koddsson/eslint-config",
   "version": "0.1.2",
   "description": "My ESLint Config.",
-  "main": "index.cjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo 'no tests configured'"
