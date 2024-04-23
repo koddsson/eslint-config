@@ -11,10 +11,16 @@ Add this to your package.json
 ```json
   "scripts": {
     "lint": "eslint \"src/**/*.{js,mjs,ts,mts}\""
-  },
-  "eslintConfig": {
-    "extends": [
-      "@koddsson/eslint-config"
-    ]
-  },
+  }
+```
+
+And create a `eslint.config.js` with the config enabled:
+
+```js
+import koddssonConfig from "@koddsson/eslint-config";
+
+export default [
+  ...koddssonConfig,
+  // Rest of your config goes here.
+];
 ```
