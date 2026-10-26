@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@eslint/js": "^10.0.1",
-    "@koddsson/eslint-plugin-tscompat": "^0.2.0",
+    "@koddsson/eslint-plugin-tscompat": "^0.4.0",
     "@koddsson/tsconfig": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^8.57.0",
     "@typescript-eslint/parser": "^8.23.0",
